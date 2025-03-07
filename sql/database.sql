@@ -6,7 +6,7 @@ CREATE TABLE PersonajesDeadSpace (
   puesto VARCHAR(100) NOT NULL,
   primeraaparicion VARCHAR (100) NOT NULL,
   ultimaaparicion VARCHAR (100) NOT NULL
-)
+);
 
 INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicion, ultimaaparicion) VALUES('Clarke', 'Isaac', 46, 'Ingeniero', 'Dead Space', 'Dead Space 3');
 INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicion, ultimaaparicion) VALUES('Brennan', 'Nicole', 45, 'Medico', 'Dead Space','Dead Space 3');
