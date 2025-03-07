@@ -12,6 +12,3 @@ INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicio
 INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicion, ultimaaparicion) VALUES('Brennan', 'Nicole', 45, 'Medico', 'Dead Space','Dead Space 3');
 INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicion, ultimaaparicion) VALUES('Challus', 'Mercer', 40, 'Medico', 'Dead Space', 'Dead Space');
 INSERT INTO PersonajesDeadSpace (apellido, nombre, edad, puesto, primeraaparicion, ultimaaparicion) VALUES('Brant', 'Harris', 34, 'Minero', 'Dead Space', 'Dead Space');
-
-
-
