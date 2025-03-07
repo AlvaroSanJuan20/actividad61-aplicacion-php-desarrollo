@@ -1,4 +1,4 @@
-CREATE TABLE empleados (
+CREATE TABLE PersonajesDeadSpeace (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   apellido VARCHAR(100) NOT NULL,
   nombre VARCHAR(100) NOT NULL,
@@ -6,12 +6,10 @@ CREATE TABLE empleados (
   puesto VARCHAR(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Coloma', 'Javier', 25, 'Contable');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Oviedo', 'Carmen', 34, 'Administrativo');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Vargas', 'Pascual', 19, 'Dependiente');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Donoso', 'Maria', 45, 'Gerente');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Celis', 'Manuel', 56, 'Dependiente');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Palencia', 'Jana', 31, 'Dependiente');
-INSERT INTO empleados (apellido, nombre, edad, puesto) VALUES('Zamanillo', 'Pedro', 63, 'Repartidor');
+INSERT INTO PersonajesDeadSpeace (apellido, nombre, edad, puesto) VALUES('Clarke', 'Isaac', 46, 'Ingeniero');
+INSERT INTO PersonajesDeadSpeace (apellido, nombre, edad, puesto) VALUES('Brennan', 'Nicole', 45, 'Medico');
+INSERT INTO PersonajesDeadSpeace (apellido, nombre, edad, puesto) VALUES('Challus', 'Mercer', 40, 'Medico');
+INSERT INTO PersonajesDeadSpeace (apellido, nombre, edad, puesto) VALUES('Brant', 'Harris', 34, 'Minero');
+
 
 
