@@ -13,12 +13,12 @@ include_once("config.php");
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<title>Electroshop S.L.</title>
+	<title> DEAD SPACE</title>
 </head>
 <body>
 <div>
 	<header>
-		<h1>ELECTROSHOP S.A.</h1>
+		<h1>PERSONAJES DE LA FRANQUICIA DEAD SPACE</h1>
 	</header>
 
 	<main>
@@ -34,7 +34,8 @@ include_once("config.php");
 			<th>Apellido</th>
 			<th>Edad</th>
 			<th>Puesto</th>
-			<th>Acciones</th>
+			<th>Primera Aparicion</th>
+			<th>Ultima Aparicion</th>
 		</tr>
 	</thead>
 	<tbdody>
@@ -91,6 +92,8 @@ A medida que avanza se va consturyendo cada fila de la tabla HTML con todos los 
 		echo "<td>".$fila['apellido']."</td>\n";
 		echo "<td>".$fila['edad']."</td>\n";
 		echo "<td>".$fila['puesto']."</td>\n";
+		echo "<td>".$fila['primeraaparicion']."</td>\n";
+		echo "<td>".$fila['ultimaaparicion']."</td>\n";
 		echo "<td>";
 /* En la última columna se añade dos enlaces para editar y modificar el registro correspondiente. 
 Los datos se pueden enviar entre distintas páginas siguiendo distintos métodos. En este caso el id del registro a editar/eliminar se pasa a través de la URL. 

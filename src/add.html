@@ -3,49 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta empleado/a</title>
+    <title>DEAD SPACE</title>
 </head>
 <body>
 <div>
 	<header>
-		<h1>ELECTROSHOP S.L.</h1>
+		<h1>PERSONAJES DE LA FRANQUICIA DEAD SPACE</h1>
 	</header>
 	<main>				
 	<ul>
 		<li><a href="index.php">Inicio</a></li>
 		<li><a href="add.html">Alta</a></li>
 	</ul>
-	<h2>Alta empleado/a</h2>
-<!--FORMULARIO DE ALTA. Al hacer click en el botón Agregar, llama a la página: add.php (form action="add.php")
-La página: add.php se encargará de proceder a la inserción del registro en la tabla de empleados
--->
+	<h2>Personaje</h2>
 
+	<!--FORMULARIO DE ALTA. Al hacer click en el botón Agregar, llama a la página: add_action.php -->
 	<form action="add_action.php" method="post">
 		<div>
-			<label for="name">Nombre</label>
-			<input type="text" name="name" id="name" placeholder="nombre" required>
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="apellido" placeholder="apellido" required>
 		</div>
 
 		<div>
-			<label for="surname">Apellido</label>
-			<input type="text" name="surname" id="surname" placeholder="apellido" required>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="nombre" placeholder="nombre" required>
 		</div>
 
 		<div>
-			<label for="age">Edad</label>
-			<input type="number" name="age" id="age" placeholder="edad" required>
+			<label for="edad">Edad</label>
+			<input type="number" name="edad" id="edad" placeholder="edad" required>
 		</div>
 
 		<div>
-			<label for="job">Puesto</label>
-			<select name="job" id="job" placeholder="puesto" required>
-				<option value="" disabled selected>Seleccione un puesto</option>
-				<option value="Administrativo">Administrativo</option>
-				<option value="Contable">Contable</option>
-				<option value="Dependiente">Dependiente</option>
-				<option value="Gerente">Gerente</option>
-				<option value="Repartidor">Repartidor</option>
-			</select>	
+			<label for="puesto">Puesto</label>
+			<input type="text" name="puesto" id="puesto" placeholder="puesto" required>
+		</div>
+
+		<div>
+			<label for="primeraaparicion">Primera Aparición</label>
+			<input type="text" name="primeraaparicion" id="primeraaparicion" placeholder="primera aparición" required>
+		</div>
+
+		<div>
+			<label for="ultimaaparicion">Última Aparición</label>
+			<input type="text" name="ultimaaparicion" id="ultimaaparicion" placeholder="última aparición" required>
 		</div>
 
 		<div>
