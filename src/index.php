@@ -30,12 +30,12 @@ include_once("config.php");
 	<table border="1">
 	<thead>
 		<tr>
-			<th>Nombre</th>
-			<th>Apellido</th>
-			<th>Edad</th>
-			<th>Puesto</th>
-			<th>Primera Aparicion</th>
-			<th>Ultima Aparicion</th>
+			<th>nombre</th>
+			<th>apellido</th>
+			<th>edad</th>
+			<th>puesto</th>
+			<th>primeraaparicion</th>
+			<th>ultimaaparicion</th>
 		</tr>
 	</thead>
 	<tbdody>
@@ -45,7 +45,7 @@ include_once("config.php");
 Cada fila y cada columna de la tabla se corresponde con un registro y campo de la tabla EMPLEADOS.
 */
 
-$resultado = $mysqli->query("SELECT * FROM empleados ORDER BY apellido, nombre");
+$resultado = $mysqli->query("SELECT * FROM PersonajesDeadSpace ORDER BY apellido, nombre");
 
 //Cierra la conexión de la BD
 $mysqli->close();
